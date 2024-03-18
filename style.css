@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 110px;
+    
+}
+
+.logo {
+    background-image: url(PngItem_12080.png);
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+    height: 50px;
+    width: 110px;
+    background-size: contain;
+    transform: scale(.8,1);
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+/* box2 */
+
+.deliver {
+    color: #cccccc;
+    font-size: 0.5rem;
+    margin-left: 15px;
+}
+
+.India{
+    font-size: 1rem;
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* Box3 */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orange;
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+.search-select  {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: rgb(231, 168, 50);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+    border: none;
+}
+
+span {
+    font-size: 0.7rem;
+    font-weight: 100;
+}
+
+.nav-second {
+    font-size: .85rem;
+    font-weight: bold;
+}
+
+.cart {
+    display: flex;
+    font-weight: bold;
+    height: 26px;
+}
+
+.cart-icon {
+    font-size: 1.5rem;
+}
+
+.c {
+    margin-top: 10px;
+}
+
+.panel {
+    height: 39px;
+    background-color: #1d232a;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ffffff;
+    
+
+}
+
+.panel-ops {
+    display: flex;
+    margin-left: 20px;
+}
+
+.panel-ops p {
+    margin-left: 20px;
+}
+
+.panel-ops p:hover {
+    border: 2px solid white;
+}
+
+.all {
+    margin-left: 15px;
+}
+
+.hero-section {
+    background-image: url("heropic.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-message {
+    color: #0f1111;
+    font-size: 1rem;
+    background-color: white;
+    height: 45px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hero-message a {
+    color: #007185;
+}
+.toys {
+    height: 400px;
+    width: 300px;
+    background-color: #007185;
+    margin-top: 20px;
+    border: 2px solid black;
+    /* background-image: url("box-pic2.jpg"); */
+    /* background-size: contain; */
+    /* display: flex; */
+    /* padding: 50px 20px 40px 20px; */
+}
+
+.toys a {
+    transform: translateY(100px);
+}
+
+.shops {
+    display: flex;
+    justify-content: space-evenly;
+
+}
